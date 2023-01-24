@@ -1,16 +1,33 @@
-# Rust Github Template
+# {{project-name}}
 
-A template for [cargo generate](https://github.com/cargo-generate/cargo-generate) that aims to be a starting point suitable for
-the vast majority of rust projects that will be hosted on GitHub.
+[![Crates.io](https://img.shields.io/crates/v/{{project-name}}.svg)](https://crates.io/crates/{{project-name}})
+[![Docs.rs](https://docs.rs/{{project-name}}/badge.svg)](https://docs.rs/{{project-name}})
+[![CI](https://github.com/{{gh-username}}/{{project-name}}/workflows/CI/badge.svg)](https://github.com/{{gh-username}}/{{project-name}}/actions)
+[![Coverage Status](https://coveralls.io/repos/github/{{gh-username}}/{{project-name}}/badge.svg?branch=main)](https://coveralls.io/github/{{gh-username}}/{{project-name}}?branch=main)
 
-See the project [website](https://rust-github.github.io).
+## Installation
 
-# Differences
+### Cargo
 
-We have added a few extra features to this template:
+* Install the rust toolchain in order to have cargo installed by following
+  [this](https://www.rust-lang.org/tools/install) guide.
+* run `cargo install {{project-name}}`
 
- - Barebones `clap` setup
- - Logging via `log` and `env_logger`
- - `anyhow` error handling
- - `color_eyre` for pretty panic messages
- - Todo and Unfinished sections added to the changelog
+## License
+
+Licensed under either of
+
+ * Apache License, Version 2.0
+   ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
+ * MIT license
+   ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
+
+at your option.
+
+## Contribution
+
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
+dual licensed as above, without any additional terms or conditions.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
